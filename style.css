@@ -1,0 +1,49 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Splash screen */
+#splash-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #007bff, #00c6ff);
+  color: white;
+}
+
+#splash-screen img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#splash-screen h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#splash-screen p {
+  font-size: 1.2em;
+}
+
+/* Main app container */
+#app {
+  padding: 20px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  #splash-screen h1 {
+    font-size: 1.5em;
+  }
+
+  #splash-screen p {
+    font-size: 1em;
+  }
+}
